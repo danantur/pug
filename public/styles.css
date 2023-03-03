@@ -1,0 +1,8 @@
+.diag_block div {
+    width: 50px;
+    display: inline-block;
+}
+.diag_block {
+    display: inline;
+    margin-right: 50px;
+}
