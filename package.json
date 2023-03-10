@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "express": "^4.18.2",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6"
   }
 }

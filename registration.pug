@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet' href='/styles.css')
+    title Регистрация
+  body
+    form.auth-form
+      h3 Регистрация
+      label(for='email') Адрес электронной почты
+      input#email(type='email' placeholder='Почта...')
+      label(for='login') Логин
+      input#login(type='text' placeholder='Логин...')
+      label(for='password') Пароль
+      input#password(type='password' placeholder='Пароль...')
+      label(for='password_repeat') Пароль (повторно)
+      input#password_repeat(type='password' placeholder='Пароль (повторно)...')
+      input(type='submit' value='Зарегистрироваться')
